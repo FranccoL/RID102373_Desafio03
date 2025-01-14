@@ -1,0 +1,49 @@
+.tittleAbout{
+    color: white;
+    font-size: 34px;
+    margin-left: 300px;
+    margin-top: 200px;
+
+}
+
+.tittleAbout p{
+    color: white;
+    font-size: 26px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 989px;
+}
+
+.btAboutMe{
+    width: 280px;
+    height: 80px;
+    border-radius: 83px;
+    font-size: 28px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    cursor: pointer;
+    color: white;
+    margin-left: 200px;
+}
+
+.btAboutMe:hover {
+    background: linear-gradient(270deg, #945DD6 0%, #6978D1 66.67%, #13ADC7 100%);
+    box-shadow: 0 10px 10px rgba(199, 192, 192, 0.2);
+    transform: scale(1.1);
+    
+  }
+
+
+
+  .fade-in {
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
