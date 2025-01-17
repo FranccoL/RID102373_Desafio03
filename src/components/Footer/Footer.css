@@ -12,18 +12,18 @@
   .infos {
     color: white;
     font-size: 38px;
-    text-align: left; /* Alinha o texto à esquerda dentro do contêiner */
+    text-align: left; 
     position: absolute;
     left: 30%;
     transform: translateX(-50%);
-    display: flex; /* Alinha os dois grupos de informações horizontalmente */
-    gap: 40px; /* Espaçamento entre os grupos "Meu contato" e "Email" */
+    display: flex; 
+    gap: 40px; 
   }
   
   .contact-info,
   .email-info {
     display: flex;
-    flex-direction: column; /* Para manter "Meu contato:" e "(12) 988888888" empilhados, e "Email:" e "xxx@xyz.com" também empilhados */
+    flex-direction: column; 
   }
   
   .icons {
@@ -49,3 +49,36 @@
     background-image: url('/Figma.svg');
   }
   
+
+
+
+  
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    height: auto; 
+    margin-top: 50px; 
+  }
+
+  .infos {
+    position: relative; 
+    left: 0; 
+    transform: none; 
+    text-align: center; 
+    font-size: 24px; 
+    gap: 20px; 
+  }
+
+  .icons {
+    gap: 20px; 
+    margin-left: 0; 
+    margin-top: 20px; 
+  }
+
+  .icons div {
+    width: 30px; 
+    height: 30px;
+  }
+}

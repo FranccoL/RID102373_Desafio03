@@ -66,3 +66,49 @@
     }
   }
   
+
+  @media (max-width: 768px) {
+    .tittleAbout {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .imgProfile {
+        width: 220px; 
+        height: 220px; 
+        margin-bottom: 20px; 
+        border-radius: 50%;
+        margin: 0 auto; 
+    }
+
+    .text {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 15px; 
+        text-align: center; 
+    }
+
+    .btAboutMe {
+        width: 100%; 
+        max-width: 280px; 
+        font-size: 20px; 
+        margin: 0 auto; 
+    }
+}
+  
+  
+  @media (max-width: 480px) {
+    .tittleAbout {
+      padding: 20px; 
+    }
+  
+    .textContent h1 {
+      font-size: 28px; 
+    }
+  
+    .textContent p {
+      font-size: 16px;
+    }
+  }
