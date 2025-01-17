@@ -1,0 +1,51 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .infos {
+    color: white;
+    font-size: 38px;
+    text-align: left; /* Alinha o texto à esquerda dentro do contêiner */
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    display: flex; /* Alinha os dois grupos de informações horizontalmente */
+    gap: 40px; /* Espaçamento entre os grupos "Meu contato" e "Email" */
+  }
+  
+  .contact-info,
+  .email-info {
+    display: flex;
+    flex-direction: column; /* Para manter "Meu contato:" e "(12) 988888888" empilhados, e "Email:" e "xxx@xyz.com" também empilhados */
+  }
+  
+  .icons {
+    gap: 50px;
+    margin-left: auto;
+  }
+  
+  .icons div {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+  
+  .icon1 {
+    background-image: url('/github.svg');
+  }
+  
+  .icon2 {
+    background-image: url('/Linkedin.svg');
+  }
+  
+  .icon3 {
+    background-image: url('/Figma.svg');
+  }
+  
