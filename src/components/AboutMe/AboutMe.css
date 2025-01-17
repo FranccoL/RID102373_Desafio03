@@ -1,18 +1,37 @@
+.imgProfile {
+  background-image: url(/profile.svg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  width: 360px; 
+  height: 450px;
+  margin-right: 100px;  
+   
+}
+
 .tittleAbout{
     color: white;
     font-size: 34px;
     margin-left: 300px;
     margin-top: 200px;
+    flex-direction: row;
+    align-items: start;
+    gap: 20px;
+}
+.text h1{
+  margin: 0;
+  flex-direction: column;
 
 }
 
-.tittleAbout p{
-    color: white;
-    font-size: 26px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    width: 989px;
+.text p{
+  margin-top: 10px; 
+  font-size: 25px; 
+  color: white;
+  max-width: 600px; 
+
 }
+
 
 .btAboutMe{
     width: 280px;
@@ -22,7 +41,7 @@
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     cursor: pointer;
     color: white;
-    margin-left: 200px;
+    
 }
 
 .btAboutMe:hover {
