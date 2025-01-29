@@ -7,7 +7,8 @@
 .timeline h1 {
   font-size: 50px;
   margin-bottom: 200px;
-  margin-right: 1300px;
+  
+  
 }
 
 .timeline-container {
@@ -84,6 +85,30 @@
 .timeline-content p {
   margin: 10px;
   line-height: 1.8;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+
+.light .projectItem {
+  color: black;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.light .btProjects {
+  background: linear-gradient(270deg, #FF8A00, #E52E71);
+}
+
+.light .btProjects:hover {
+  background: linear-gradient(270deg, #E52E71, #FF8A00);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tema Escuro */
+.dark {
+  
+  color: white;
 }
 
 

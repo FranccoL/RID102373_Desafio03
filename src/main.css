@@ -9,6 +9,9 @@ body {
   background-color: #0F1624;
   font-family: "Poppins", serif;
 }
+body.light {
+  color: black;
+}
  
 .container {
   margin: 0;
@@ -65,3 +68,12 @@ flex-direction: column;
 .jc-space-evenlyn {
   justify-content: space-evenly;
 }
+
+
+
+
+
+
+
+
+
